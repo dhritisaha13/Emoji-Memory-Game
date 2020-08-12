@@ -1,0 +1,63 @@
+body{
+    height: 750px;
+    background-image: linear-gradient(to bottom, red 25%, pink);
+    overflow: hidden;
+}
+
+.tiles{
+    width: 22%;
+    margin: 10px 1%;
+    float: left;
+    height: 170px;
+    background-color: #63B8FF;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+h3{
+    color: aliceblue;
+    text-align: center;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.btn1, .btn2{
+    background-color: #63B8FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: auto;
+}
+
+
+.btn1:hover, .btn2:hover{
+    background-color: lightpink;
+}
+
+.btn1:active, .btn2:active {
+  background-color: #63B8FF	;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
